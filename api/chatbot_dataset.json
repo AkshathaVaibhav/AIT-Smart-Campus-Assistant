@@ -1,0 +1,275 @@
+[
+  {
+    "intent": "how_to_reach_college_transport",
+    "questions": [
+      "How can I reach the college?",
+      "Which is the nearest bus stop to Atria college?",
+      "How do I come to college from Majestic?",
+      "Directions to Atria Institute of Technology",
+      "How to reach the campus from Hebbal?",
+      "Buses to Atria college",
+      "How to come from KR Puram or Yeshwanthpur?",
+      "Is there an underpass near the college?"
+    ],
+    "answer": "Atria Institute of Technology is highly accessible via three nearby bus stops: 1. Veterinary College Bus Stop, 2. Baptist Hospital Bus Stop, and 3. Hebbal Bus Stop. If you are coming from Majestic, get down at the Veterinary College bus stop and use the pedestrian underpass to cross over and reach the college. If you are commuting from KR Puram, Outer Ring Road, Bell Circle, Yeshwanthpur, or Mattikere, get down at the Hebbal Bus Stop; from there, you can either take a quick connecting bus to the Baptist Hospital stop or simply walk directly to the campus entrance."
+  },
+  {
+    "intent": "general_college_review_overview",
+    "questions": [
+      "How is the college?",
+      "Tell me about Atria Institute of Technology.",
+      "Is Atria a good college?",
+      "What is your review of Atria?",
+      "Give me a brief overview of the campus life and institution.",
+      "What makes Atria special?",
+      "Can you describe the college?"
+    ],
+    "answer": "Atria Institute of Technology is an excellent, NAAC A++ Accredited forward-thinking autonomous institution in Bengaluru. It offers a vibrant, corporate-style campus environment focused on hands-on project-based learning (like the SIP program), strong industry placement training starting from the 3rd semester, active technical clubs, and modern infrastructure. It provides a well-rounded academic and extra-curricular ecosystem for engineering aspirants."
+  },
+  {
+    "intent": "anti_ragging_policy",
+    "questions": [
+      "Is ragging allowed here?",
+      "What is the policy on ragging?",
+      "Is Atria a ragging free campus?",
+      "What happens if someone rags a junior?",
+      "Anti-ragging rules and cell",
+      "Are freshers safe from ragging?"
+    ],
+    "answer": "Atria Institute of Technology maintains a strict zero-tolerance, 100% ragging-free campus. Ragging in any form is completely prohibited both inside the campus and in the hostels. The college has an active Anti-Ragging Committee and Squad; any student found violating these regulations faces immediate suspension, academic expulsion, and legal action per university and government laws."
+  },
+  {
+    "intent": "library_facilities_digital",
+    "questions": [
+      "How is the library?",
+      "Tell me about the library facilities.",
+      "How do we borrow books from the library?",
+      "Is the library digitized?",
+      "Library entry and exit process",
+      "What technology is used in the Atria library?"
+    ],
+    "answer": "Atria features a state-of-the-art, fully digitized library. For tracking student footprints, entry and exit are managed via a high-precision biometric fingerprint sensor system. Additionally, the library utilizes advanced RFID (Radio Frequency Identification) technology for seamless, automated book issuing and returns, ensuring a fast, modern, and highly efficient study environment."
+  },
+  {
+    "intent": "parking_facilities",
+    "questions": [
+      "Is there a parking space?",
+      "Can I bring my bike to college?",
+      "Where can I park my car?",
+      "Does the college have parking for students?",
+      "Vehicle parking facility details",
+      "Is parking available for two wheelers and four wheelers?"
+    ],
+    "answer": "Yes, Atria Institute of Technology provides spacious and designated on-campus parking facilities for both two-wheelers (bikes/scooters) and four-wheelers (cars) belonging to students, staff, and visitors."
+  },
+  {
+    "intent": "ncc_unit_activities",
+    "questions": [
+      "Is NCC available in Atria?",
+      "Tell me about the NCC wing.",
+      "How do I join NCC?",
+      "Does the college support NCC activities?",
+      "Achievements of Atria NCC"
+    ],
+    "answer": "Yes! Atria Institute of Technology maintains a highly disciplined, prestigious, and extremely active NCC (National Cadet Corps) unit. The college wing is very well-maintained and reaches outstanding heights, training cadets for national camps, leadership platforms, and various community-centric social impact initiatives."
+  },
+  {
+    "intent": "college_identity_location",
+    "questions": [
+      "Where is Atria Institute of Technology located?",
+      "What is the exact address of the college?",
+      "Which university is Atria affiliated to?",
+      "Is Atria accredited or approved?",
+      "Where is Atria college?"
+    ],
+    "answer": "Atria Institute of Technology is a prominent autonomous institution located at ASKB Campus, 1st Main Road, AGS Colony, Anand Nagar, Hebbal, Bengaluru - 560024 (Adjacent to Bangalore Baptist Hospital). It is affiliated with Visvesvaraya Technological University (VTU), approved by AICTE, and accredited with an 'A++' grade by NAAC."
+  },
+  {
+    "intent": "contact_admissions_helpline",
+    "questions": [
+      "How can I contact the admission office?",
+      "What is the phone number for Atria college admissions?",
+      "What is the official admission email?",
+      "Admission cell contact information",
+      "Whom should I call for seats?"
+    ],
+    "answer": "You can reach the Atria Admission Helpline directly at +91 7090329032 or +91 9666247700. For written inquiries regarding seats and documentation, you can email them at admissions@atria.edu."
+  },
+  {
+    "intent": "courses_offered_ug",
+    "questions": [
+      "What engineering courses are available at Atria?",
+      "Does the college offer Robotics or Quantum Computing?",
+      "List the BE branches available.",
+      "Which branches can I study here?",
+      "Is there CSE or AIML?"
+    ],
+    "answer": "Atria offers 4-year Bachelor of Engineering (BE) programs in: Computer Science & Engineering (CSE), Information Science & Engineering (ISE), Electronics & Communication Engineering (ECE), CSE - Data Science, Artificial Intelligence & Machine Learning (AIML), Civil Engineering, Mechanical Engineering, Robotics & Automation, alongside advanced curriculum tracks in Quantum Computing."
+  },
+  {
+    "intent": "course_fees_structure",
+    "questions": [
+      "What is the fees structure for engineering at Atria?",
+      "How much do I have to pay per year for BE?",
+      "What are the fees for KCET vs COMEDK vs Management quota?",
+      "Engineering annual fees"
+    ],
+    "answer": "The annual fee structure for a Bachelor of Engineering (BE) varies based on your admission pathway. For state merit seats via KCET, the fee is approximately INR 1,21,610 per year. For seats via COMEDK UGET, it is approximately INR 2,30,610 per year. Management quota fees vary depending on the specialization (e.g., around INR 2,00,000 first-year base tuition for paths like ECE). A training and placement fee of roughly INR 20,000 is compiled over the course timeline."
+  },
+  {
+    "intent": "postgraduate_fees_structure",
+    "questions": [
+      "What are the fees for MBA and MCA at Atria?",
+      "How much does M.Tech cost at Atria?",
+      "MBA fees structure",
+      "MCA annual fees"
+    ],
+    "answer": "For postgraduate studies, the annual tuition fees are approximately: INR 69,310 per year for the Master of Business Administration (MBA), INR 1,07,615 per year for the Master of Computer Applications (MCA), and INR 80,860 per year for a Master of Technology (M.Tech) degree."
+  },
+  {
+    "intent": "admission_eligibility_criteria",
+    "questions": [
+      "What is the eligibility criteria for engineering admission?",
+      "What marks do I need in 12th standard to join Atria?",
+      "Which entrance exams are accepted?",
+      "Can I get admission without COMEDK?",
+      "Eligibility for BE"
+    ],
+    "answer": "Candidates must have passed 10+2 (Class 12) with English as a language and secured a minimum aggregate of 45% marks (40% for reserved categories) in Physics and Mathematics as compulsory subjects, alongside Chemistry, Biotechnology, Biology, Electronics, or Computer Science. Valid scorecards in KCET or COMEDK UGET are mandatory for merit seats."
+  },
+  {
+    "intent": "attendance_policy",
+    "questions": [
+      "What is the attendance rule at Atria?",
+      "Is attendance compulsory?",
+      "What percentage of attendance do I need to maintain?",
+      "Can I write exams with low attendance?",
+      "What if my attendance is below 85?"
+    ],
+    "answer": "Atria Institute of Technology strictly enforces an 85% compulsory attendance rule for every student to remain eligible to sit for both internal and final university exams."
+  },
+  {
+    "intent": "college_timings_schedule",
+    "questions": [
+      "timings",
+      "what are the timings",
+      "college timings",
+      "class timings",
+      "What are the college working hours?",
+      "What time do classes start and end?",
+      "When is the lunch break and morning break?",
+      "At what time does college wrap up?"
+    ],
+    "answer": "The regular college schedule begins sharp at 8:30 AM and runs up to a maximum of 5:30 PM, though classes typically conclude around 3:30 PM. The morning tea break is from 10:30 AM to 10:45 AM, and the lunch hour is scheduled from 12:45 PM to 1:30 PM. Departments feature three dedicated lab slots a week."
+  },
+  {
+    "intent": "marks_evaluation_internals",
+    "questions": [
+      "How are internal assessment marks calculated?",
+      "What is the marking scheme for CIE and SEE?",
+      "How are the 60 marks of internals broken down?",
+      "Tell me about the marks breakdown.",
+      "How do they calculate the final 100 marks?"
+    ],
+    "answer": "Every semester includes two internal assessment exams (CIE) written for 60 marks, which are scaled down to 15 marks each (30 total). An additional 20 marks are awarded for ongoing activities, assignments, lab sessions, and presentations, making total internal marks equal to 50. The final Semester End Exam (SEE) is written for 100 marks and scaled to 50 marks to compute the net score out of 100."
+  },
+  {
+    "intent": "fourth_semester_exams",
+    "questions": [
+      "fourth sem exam details",
+      "4th sem exam info",
+      "when are the 4th semester exams",
+      "exam timetable for 4th sem",
+      "4th sem exam dates",
+      "timetable"
+    ],
+    "answer": "SHOW_PDF_TIMETABLE"
+  },
+  {
+    "intent": "societal_impactful_project_sip",
+    "questions": [
+      "What is the SIP project?",
+      "Tell me about the Societal Impactful Project.",
+      "How does the engineering project work from 1st year?",
+      "What do we do in SIP every week?",
+      "Continuous project evaluation at Atria"
+    ],
+    "answer": "The Societal Impactful Project (SIP) is a flagship, multi-year learning program starting as early as your first or second year and running straight through to your final semester. Students address community challenges using real engineering logic, completing milestones weekly on a fixed day, and offering sequential progress presentations to secure internal evaluations."
+  },
+  {
+    "intent": "department_locations",
+    "questions": [
+      "Where is the CSE department?",
+      "Which floor is ISE on?",
+      "Where can I find the ECE block?",
+      "Where is the data science department?",
+      "Floor plan for departments"
+    ],
+    "answer": "The corporate-style campus floor layout allocates the Computer Science & Engineering (CSE) department to the 3rd floor, while the Information Science & Engineering (ISE) and Data Science tracking wings sit on the 4th floor. The Electronics & Communication Engineering (ECE) department is situated on the 2nd floor."
+  },
+  {
+    "intent": "campus_facilities_hostel",
+    "questions": [
+      "Does Atria have a hostel?",
+      "What are the facilities in the boys and girls hostels?",
+      "Is there an on-campus hostel?",
+      "Hostel facilities and food",
+      "Where is the canteen?"
+    ],
+    "answer": "Atria features secure, 17.5-acre on-campus hostels for both boys and girls designed for peer learning. Rooms are typically triple-occupancy configurations featuring bunker beds, study desk sets, personal cupboards, and attached bathrooms with 24/7 hot water. The mess provides breakfast, lunch, snacks, and dinner daily. There is also a fully operational on-campus canteen available for students."
+  },
+  {
+    "intent": "college_clubs_activities",
+    "questions": [
+      "What clubs are there in Atria?",
+      "Does the college have an IEEE or AWS club?",
+      "Are there technical workshops and hackathons?",
+      "List of clubs in Atria",
+      "Extracurricular activities and technical clubs"
+    ],
+    "answer": "The campus hosts highly active student chapters including the AI Club, AWS Cloud Club, Rotaract Club, and the official IEEE Student Branch. These frameworks continuously launch technical boot camps, hands-on workshops, and competitive hackathons to keep students code-ready."
+  },
+  {
+    "intent": "sports_facilities",
+    "questions": [
+      "What sports facilities are available at Atria?",
+      "Can we play football or basketball on campus?",
+      "Indoor games at Atria",
+      "Is there a football court?",
+      "Games we can play on campus"
+    ],
+    "answer": "To foster well-rounded fitness and health, the institution provides ready access to sports fields. Outdoor zones include fully marked football, basketball, volleyball, and throwball courts. Indoor recreational rooms provide multiple arrangements for table tennis, chess, and carrom boards."
+  },
+  {
+    "intent": "college_fest_vigyan_rang",
+    "questions": [
+      "What is the annual fest of Atria called?",
+      "When does Vigyan Rang happen?",
+      "Tell me about the college fest.",
+      "Cultural and technical fest at Atria"
+    ],
+    "answer": "'Vigyan Rang' is Atria's flagship annual national-level techno-cultural festival. It incorporates high-energy technical hackathons, artistic design events, and cultural stage displays drawing candidates from all across Karnataka."
+  },
+  {
+    "intent": "placement_training_cdc",
+    "questions": [
+      "How does the placement training work?",
+      "What is CDC training at Atria?",
+      "When does placement training start?",
+      "Tell me about the 6 days placement bootcamp.",
+      "placement preparation",
+      "how is placement training"
+    ],
+    "answer": "The institutionalized Career Development Centre (CDC) manages continuous employability tracks. Training begins inside the 3rd semester (2nd year) and mandates a dedicated 6-day placement boot camp every semester. This intensive boot camp operates from 8:30 AM to 4:30 PM, focusing on corporate communication, technical aptitude, and core mock interviews."
+  },
+  {
+    "intent": "placement_statistics_companies",
+    "questions": [
+      "What is the highest package at Atria?",
+      "Which companies visit Atria for campus placements?",
+      "Who are the top recruiters?",
+      "Placement rate and statistics"
+    ],
+    "answer": "Placements feature more than 400 global recruiters visiting the Hebbal campus. The highest tier package reached up to INR 30 LPA, with major regular hiring drives run by Amazon, Flipkart, PhonePe, Adobe, Cognizant, Infosys, Wipro, and TCS."
+  }
+]
