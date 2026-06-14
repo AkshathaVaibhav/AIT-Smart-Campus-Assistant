@@ -73,11 +73,17 @@ def get_response(intents_list, intents_json):
             return i['answer']
     return "I am experiencing trouble fetching that detail right now."
 
-@app.route('/api/chat', methods=['POST']) 
+@app.route('/api/chat', methods=['POST'])
 def chat():
-    user_message = request.json.get("message")
-    if not user_message:
-        return jsonify({"response": "Please type something!"})
-    ints = predict_class(user_message)
-    reply = get_response(ints, intents)
-    return jsonify({"response": reply})
+    try:
+        user_message = request.json.get("message")
+        if not user_message:
+            return jsonify({"response": "Please type something!"})
+            
+        ints = predict_class(user_message)
+        reply = get_response(ints, intents)
+        return jsonify({"response": reply})
+    except Exception as e:
+        import traceback
+        traceback.print_exc() # This prints the EXACT red error to your Render logs
+        return jsonify({"response": f"Server Error: {str(e)}"}), 500
