@@ -1,5 +1,6 @@
 flask
 flask-cors
-tensorflow>=2.10.0nltk
+tensorflow>=2.10.0
+nltk
 numpy
 gunicorn
