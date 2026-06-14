@@ -40,6 +40,16 @@ def serve_static(path):
 
 # --- Chatbot Logic ---
 def clean_up_sentence(sentence):
+    # Ensure NLTK data is downloaded if not present
+    try:
+        # Check for the new punkt_tab resource
+        nltk.data.find('tokenizers/punkt_tab')
+    except LookupError:
+        # Download all required NLTK resources
+        nltk.download('punkt')
+        nltk.download('punkt_tab')  # <--- THIS IS THE MAGIC FIX
+        nltk.download('wordnet')
+    
     sentence_words = nltk.word_tokenize(sentence.lower())
     sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
     return sentence_words
