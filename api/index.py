@@ -2,6 +2,7 @@ import os
 import json
 import pickle
 import numpy as np
+import traceback
 import nltk
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
@@ -93,7 +94,9 @@ def chat():
         ints = predict_class(user_message)
         reply = get_response(ints, intents)
         return jsonify({"response": reply})
+        
     except Exception as e:
-        import traceback
-        traceback.print_exc() # This prints the EXACT red error to your Render logs
-        return jsonify({"response": f"Server Error: {str(e)}"}), 500
+        # This will catch ANY crash and send the exact error back to your screen!
+        error_details = traceback.format_exc()
+        print(error_details) # Prints to Render logs
+        return jsonify({"response": f"SERVER CRASHED: {str(e)}"}), 200
