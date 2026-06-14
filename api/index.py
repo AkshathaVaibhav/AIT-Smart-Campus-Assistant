@@ -11,7 +11,7 @@ from flask import Flask, request, jsonify, send_from_directory
 app = Flask(__name__)
 # Enable CORS for all routes
 from flask_cors import CORS
-CORS(app)
+CORS(app, origins=["https://ait-smart-campus-assistant.onrender.com", "*"])
 
 # Initialize Lemmatizer
 lemmatizer = WordNetLemmatizer()
@@ -73,7 +73,7 @@ def get_response(intents_list, intents_json):
             return i['answer']
     return "I am experiencing trouble fetching that detail right now."
 
-@app.route('/api/chat', methods=['POST'])
+@app.route('/api/chat', methods=['POST']) 
 def chat():
     user_message = request.json.get("message")
     if not user_message:
