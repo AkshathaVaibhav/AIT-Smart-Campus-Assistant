@@ -83,16 +83,25 @@
         inputField.value = "";
 
         try {
-            // UPDATED: This now points to your live Render API
             const response = await fetch("https://ait-smart-campus-assistant.onrender.com/api/chat", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ message: messageText })
             });
+            
+            // NEW: If the server crashes, catch the text and print it
+            if (!response.ok) {
+                const errorText = await response.text();
+                appendMessage(`Server crashed with status ${response.status}: ${errorText}`, false);
+                return;
+            }
+
             const data = await response.json();
             appendMessage(data.response, false);
+            
         } catch (error) {
-            appendMessage("Error: Could not connect to the server.", false);
+            // NEW: Print the EXACT network error
+            appendMessage(`Network Error: ${error.message}`, false);
         }
     }
 
